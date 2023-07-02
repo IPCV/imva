@@ -11,21 +11,42 @@ author_profile: true
   }
 </style>
 
-
 <table style="text-align: left; width: 900px; font-size: 0.9em; border: 1px solid white;" cellspacing="2" cellpadding="10" border="0">
       <tbody>
+{% for p in site.data.projects %}
 <tr>
   <td valign="top"><br>
   </td>
-  <td valign="top"><a href="https://ipcv.github.io/avsi/"><img moz-do-not-send="true" src="../images/projects/speech_inpainting.png" border="0" width="200" height="250"></a><br>
+  {% if p.project %}
+  <td valign="top"><a href="{{ p.project }}"><img moz-do-not-send="true" src="{{ p.image }}" border="0" width="200" height="250"></a><br>
   </td>
+  {% else %}
+  <td valign="top"><img moz-do-not-send="true" src="{{ p.image }}" border="0" width="200" height="250"><br>
+  </td>
+  {% endif %}
+
   <td valign="top"><br>
   </td>
-  <td valign="middle"><b>Speech Inpainting: Context-based Speech Synthesis Guided by Video</b><br>
-  Juan F. Montesinos, Daniel Michelsanti, Gloria Haro, Zheng-Hua Tan, Jesper Jensen<br>
-  Interspeech 2023<br>
-  [<a moz-do-not-send="true" href="https://arxiv.org/pdf/2306.00489.pdf">pdf</a>] [<a moz-do-not-send="true" href="https://ipcv.github.io/avsi/">project</a>]<br>
-    </font></td>
+  <td valign="middle"><b>{{ p.title }}</b><br>
+  {{ p.authors }}<br>
+  {{ p.venue }} {{ p.year }}<br>
+  {% if p.pdf %}
+    [<a moz-do-not-send="true" href="{{ p.pdf }}">pdf</a>]
+  {% endif %}
+  {% if p.project %}
+    [<a moz-do-not-send="true" href="{{ p.project }}">project</a>]
+  {% endif %}
+  {% if p.code %}
+    [<a moz-do-not-send="true" href="{{ p.code }}">code</a>]
+  {% endif %}
+  {% if p.demo %}
+    [<a moz-do-not-send="true" href="{{ p.demo }}">demo</a>]
+  {% endif %}
+  {% if p.data %}
+    [<a moz-do-not-send="true" href="{{ p.data }}">data</a>]
+  {% endif %}
+  <br>
+  </font></td>
 </tr>
 
 <tr>
@@ -38,329 +59,6 @@ author_profile: true
   <td valign="middle"><font face="Arial" size="-1"><br>
     </font></td>
 </tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://ipcv.github.io/SoccerActionSpotting/"><img moz-do-not-send="true" src="../images/projects/soccer_graph.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>A Graph-Based Method for Soccer Action Spotting Using Unsupervised Player Classification</b><br>
-  Alejandro Cartas, Coloma Ballester, Gloria Haro<br>
-  MMSports 2022<br>
-  [<a moz-do-not-send="true" href="https://github.com/ipcv/soccer_action_spotting">code</a>]
-  [<a moz-do-not-send="true" href="https://ipcv.github.io/SoccerActionSpotting/">project</a>]  
-  [<a moz-do-not-send="true" href="https://arxiv.org/pdf/2211.12334.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://ipcv.github.io/VoViT/"><img moz-do-not-send="true" src="../images/projects/vovit.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>VoViT: Low Latency Graph-based Audio-Visual Voice Separation Transformer</b><br>
-  Juan F. Montesinos, Venkatesh S. Kadandale, Gloria Haro<br>
-  ECCV 2022<br>
-  [<a moz-do-not-send="true" href="https://github.com/JuanFMontesinos/VoViT">code</a>]
-  [<a moz-do-not-send="true" href="https://ipcv.github.io/VoViT/">project</a>]  
-  [<a moz-do-not-send="true" href="https://arxiv.org/pdf/2203.04099.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://ipcv.github.io/VocaLiST/"><img moz-do-not-send="true" src="../images/projects/vocalist.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>VocaLiST: An Audio-Visual Synchronisation Model for Lips and Voices</b><br>
-  Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro<br>
-  Interspeech 2022<br>
-  [<a moz-do-not-send="true" href="https://github.com/vskadandale/vocalist">code</a>]
-  [<a moz-do-not-send="true" href="https://ipcv.github.io/VocaLiST/">project</a>]  
-  [<a moz-do-not-send="true" href="https://arxiv.org/pdf/2204.02090.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://ipcv.github.io/Acappella/"><img moz-do-not-send="true" src="../images/projects/acappella.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>A cappella: Audio-visual Singing Voice Separation</b><br>
-  Juan F. Montesinos, Venkatesh S. Kadandale, Gloria Haro<br>
-  BMVC 2021<br>
-  [<a moz-do-not-send="true" href="https://github.com/JuanFMontesinos/Acappella-YNet">code</a>]
-  [<a moz-do-not-send="true" href="https://ipcv.github.io/Acappella/">project</a>]  
-  [<a moz-do-not-send="true" href="https://arxiv.org/pdf/2104.09946.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://github.com/samuro95/Self-Supervised-Small-Soccer-Player-Detection-Tracking"><img moz-do-not-send="true" src="../images/projects/soccer_tracking.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>Self-Supervised Small Soccer Player Detection and Tracking</b><br>
-  Samuel Hurault, Coloma Ballester, Gloria Haro<br>
-  MMSports 2020<br>
-  [<a moz-do-not-send="true" href="https://github.com/samuro95/Self-Supervised-Small-Soccer-Player-Detection-Tracking">code</a>]  
-  [<a moz-do-not-send="true" href="https://repositori.upf.edu/bitstream/handle/10230/47356/hurault_mmsports_self.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://juanmontesinos.com/Solos/"><img moz-do-not-send="true" src="../images/projects/solos.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>Solos: A Dataset for Audio-Visual Music Source Separation and Localization</b><br>
-  Juan F. Montesinos, Olga Slizovskaia, Gloria Haro<br>
-  MMSP 2020<br>
-  [<a moz-do-not-send="true" href="https://juanmontesinos.com/Solos/raw/">data</a>]
-  [<a moz-do-not-send="true" href="https://juanmontesinos.com/Solos/">project</a>]  
-  [<a moz-do-not-send="true" href="https://arxiv.org/pdf/2006.07931.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://github.com/pvitoria/ChromaGAN"><img moz-do-not-send="true" src="../images/projects/chromagan.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution</b><br>
-  Patricia Vitoria, Lara Raad, Coloma Ballester<br>
-  WACV 2020<br>
-  [<a moz-do-not-send="true" href="https://github.com/pvitoria/ChromaGAN">code</a>]
-  [<a moz-do-not-send="true" href="https://colab.research.google.com/github/pvitoria/ChromaGAN/blob/master/DemoChromaGAN.ipynb">demo</a>]
-  [<a moz-do-not-send="true" href="https://arxiv.org/pdf/1907.09837.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://www.ipol.im/pub/art/2020/281/"><img moz-do-not-send="true" src="../images/projects/anisotropic.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>On Anisotropic Optical Flow Inpainting Algorithms</b><br>
-  Lara Raad, Maria Oliver, Coloma Ballester, Gloria Haro, Enric Meinhardt<br>
-  IPOL Journal 2020<br>
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2020/281/flow_interp.tar.gz">code</a>]
-  [<a moz-do-not-send="true" href="https://ipolcore.ipol.im/demo/clientApp/demo.html?id=281">demo</a>]
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2020/281/article.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://www.ipol.im/pub/art/2019/238/"><img moz-do-not-send="true" src="../images/projects/optical_flow_estimation.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>An Analysis and Speedup of the FALDOI Method for Optical Flow Estimation</b><br>
-  Ferran P. Gamonal, Coloma Ballester, Gloria Haro, Enric Meinhardt-Llopis, Roberto P. Palomares<br>
-  IPOL Journal 2019<br>
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2019/238/faldoi-ipol_1.0.tgz">code</a>]
-  [<a moz-do-not-send="true" href="https://ipolcore.ipol.im/demo/clientApp/demo.html?id=238">demo</a>]
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2019/238/article.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://www.ipol.im/pub/art/2019/118/"><img moz-do-not-send="true" src="../images/projects/joint_tv_l1.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>Joint TV-L1 Optical Flow and Occlusion Estimation</b><br>
-  Juan Francisco Garamendi, Vanel Lazcano, Coloma Ballester<br>
-  IPOL Journal 2019<br>
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2019/118/faldoi-ipol_1.0.tgz">code</a>]
-  [<a moz-do-not-send="true" href="https://ipolcore.ipol.im/demo/clientApp/demo.html?id=118">demo</a>]
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2019/118/article.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://www.ipol.im/pub/art/2018/202/"><img moz-do-not-send="true" src="../images/projects/affine_invariant.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>An Affine Invariant Patch Similarity</b><br>
-  Vadim Fedorov, Coloma Ballester<br>
-  IPOL Journal 2018<br>
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2018/202/faldoi-ipol_1.0.tgz">code</a>]
-  [<a moz-do-not-send="true" href="https://ipolcore.ipol.im/demo/clientApp/demo.html?id=202">demo</a>]
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2019/202/article.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><font face="Arial" size="-1"><br>
-    </font></td>
-</tr>
-
-<tr>
-  <td valign="top"><br>
-  </td>
-  <td valign="top"><a href="https://www.ipol.im/pub/art/2015/49/"><img moz-do-not-send="true" src="../images/projects/high_quality_photographs.png" border="0" width="200" height="250"></a><br>
-  </td>
-  <td valign="top"><br>
-  </td>
-  <td valign="middle"><b>Obtaining High Quality Photographs of Paintings by Image Fusion</b><br>
-  Antoni Buades, Gloria Haro, Enric Meinhardt-Llopis<br>
-  IPOL Journal 2015<br>
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2015/49/faldoi-ipol_1.0.tgz">code</a>]
-  [<a moz-do-not-send="true" href="https://ipolcore.ipol.im/demo/clientApp/demo.html?id=19">demo</a>]
-  [<a moz-do-not-send="true" href="https://www.ipol.im/pub/art/2015/49/article.pdf">pdf</a>]  
-  <br>
-    </font></td>
-</tr>
+{% endfor %}
 </tbody>
 </table>

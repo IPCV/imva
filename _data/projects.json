@@ -1,0 +1,128 @@
+[{
+  "title": "Speech Inpainting: Context-based Speech Synthesis Guided by Video",
+  "authors": "Juan F. Montesinos, Daniel Michelsanti, Gloria Haro, Zheng-Hua Tan, Jesper Jensen",
+  "venue": "Interspeech",
+  "year": 2023,
+  "image": "../images/projects/speech_inpainting.png",
+  "pdf": "https://arxiv.org/pdf/2306.00489.pdf",
+  "project": "https://ipcv.github.io/avsi/"
+},
+{
+  "title": "A Graph-Based Method for Soccer Action Spotting Using Unsupervised Player Classification",
+  "authors": "Alejandro Cartas, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2022,
+  "image": "../images/projects/soccer_graph.png",
+  "pdf": "https://arxiv.org/pdf/2211.12334.pdf",
+  "project": "https://ipcv.github.io/SoccerActionSpotting/",
+  "code": "https://github.com/ipcv/soccer_action_spotting"
+},
+{
+  "title": "VoViT: Low Latency Graph-based Audio-Visual Voice Separation Transformer",
+  "authors": "Juan F. Montesinos, Venkatesh S. Kadandale, Gloria Haro",
+  "venue": "ECCV",
+  "year": 2022,
+  "image": "../images/projects/vovit.png",
+  "pdf": "https://arxiv.org/pdf/2203.04099.pdf",
+  "project": "https://ipcv.github.io/VoViT/",
+  "code": "https://github.com/JuanFMontesinos/VoViT"
+},
+{
+  "title": "VocaLiST: An Audio-Visual Synchronisation Model for Lips and Voices",
+  "authors": "Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro",
+  "venue": "Interspeech",
+  "year": 2022,
+  "image": "../images/projects/vocalist.png",
+  "pdf": "https://arxiv.org/pdf/2204.02090.pdf",
+  "project": "https://ipcv.github.io/VocaLiST/",
+  "code": "https://github.com/vskadandale/vocalist"
+},
+{
+  "title": "A cappella: Audio-visual Singing Voice Separation",
+  "authors": "Juan F. Montesinos, Venkatesh S. Kadandale, Gloria Haro",
+  "venue": "BMVC",
+  "year": 2021,
+  "image": "../images/projects/acappella.png",
+  "pdf": "https://arxiv.org/pdf/2104.09946.pdf",
+  "project": "https://ipcv.github.io/Acappella/",
+  "code": "https://github.com/JuanFMontesinos/Acappella-YNet"
+},
+{
+  "title": "Self-Supervised Small Soccer Player Detection and Tracking",
+  "authors": "Samuel Hurault, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2020,
+  "image": "../images/projects/soccer_tracking.png",
+  "pdf": "https://repositori.upf.edu/bitstream/handle/10230/47356/hurault_mmsports_self.pdf",
+  "code": "https://github.com/samuro95/Self-Supervised-Small-Soccer-Player-Detection-Tracking"
+},
+{
+  "title": "Solos: A Dataset for Audio-Visual Music Source Separation and Localization",
+  "authors": "Juan F. Montesinos, Olga Slizovskaia, Gloria Haro",
+  "venue": "MMSP",
+  "year": 2020,
+  "image": "../images/projects/solos.png",
+  "pdf": "https://arxiv.org/pdf/2006.07931.pdf",
+  "project": "https://juanmontesinos.com/Solos/",
+  "data": "https://juanmontesinos.com/Solos/raw/"
+},
+{
+  "title": "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution",
+  "authors": "Patricia Vitoria, Lara Raad, Coloma Ballester",
+  "venue": "WACV",
+  "year": 2020,
+  "image": "../images/projects/chromagan.png",
+  "pdf": "https://arxiv.org/pdf/1907.09837.pdf",
+  "demo": "https://colab.research.google.com/github/pvitoria/ChromaGAN/blob/master/DemoChromaGAN.ipynb",
+  "code": "https://github.com/pvitoria/ChromaGAN"
+},
+{
+  "title": "On Anisotropic Optical Flow Inpainting Algorithms",
+  "authors": "Lara Raad, Maria Oliver, Coloma Ballester, Gloria Haro, Enric Meinhardt",
+  "venue": "IPOL Journal",
+  "year": 2020,
+  "image": "../images/projects/anisotropic.png",
+  "pdf": "https://www.ipol.im/pub/art/2020/281/article.pdf",
+  "demo": "https://ipolcore.ipol.im/demo/clientApp/demo.html?id=281",
+  "code": "https://www.ipol.im/pub/art/2020/281/flow_interp.tar.gz"
+},
+{
+  "title": "An Analysis and Speedup of the FALDOI Method for Optical Flow Estimation",
+  "authors": "Ferran P. Gamonal, Coloma Ballester, Gloria Haro, Enric Meinhardt-Llopis, Roberto P. Palomares",
+  "venue": "IPOL Journal",
+  "year": 2019,
+  "image": "../images/projects/optical_flow_estimation.png",
+  "pdf": "https://www.ipol.im/pub/art/2019/238/article.pdf",
+  "demo": "https://ipolcore.ipol.im/demo/clientApp/demo.html?id=238",
+  "code": "https://www.ipol.im/pub/art/2019/238/faldoi-ipol_1.0.tgz"
+},
+{
+  "title": "Joint TV-L1 Optical Flow and Occlusion Estimation",
+  "authors": "Juan Francisco Garamendi, Vanel Lazcano, Coloma Ballester",
+  "venue": "IPOL Journal",
+  "year": 2019,
+  "image": "../images/projects/joint_tv_l1.png",
+  "pdf": "https://www.ipol.im/pub/art/2019/118/article.pdf",
+  "demo": "https://ipolcore.ipol.im/demo/clientApp/demo.html?id=118",
+  "code": "https://www.ipol.im/pub/art/2019/118/faldoi-ipol_1.0.tgz"
+},
+{
+  "title": "An Affine Invariant Patch Similarity",
+  "authors": "Vadim Fedorov, Coloma Ballester",
+  "venue": "IPOL Journal",
+  "year": 2018,
+  "image": "../images/projects/affine_invariant.png",
+  "pdf": "https://www.ipol.im/pub/art/2019/202/article.pdf",
+  "demo": "https://ipolcore.ipol.im/demo/clientApp/demo.html?id=202",
+  "code": "https://www.ipol.im/pub/art/2018/202/faldoi-ipol_1.0.tgz"
+},
+{
+  "title": "Obtaining High Quality Photographs of Paintings by Image Fusion",
+  "authors": "Antoni Buades, Gloria Haro, Enric Meinhardt-Llopis",
+  "venue": "IPOL Journal",
+  "year": 2015,
+  "image": "../images/projects/high_quality_photographs.png",
+  "pdf": "https://www.ipol.im/pub/art/2015/49/article.pdf",
+  "demo": "https://ipolcore.ipol.im/demo/clientApp/demo.html?id=19",
+  "code": "https://www.ipol.im/pub/art/2015/49/faldoi-ipol_1.0.tgz"
+}]
