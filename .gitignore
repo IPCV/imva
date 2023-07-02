@@ -2,4 +2,4 @@ _site/
 Gemfile.lock
 .ipynb_checkpoints/
 .sass-cache/
-
+.jekyll-metadata

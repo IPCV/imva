@@ -1,0 +1,19 @@
+[{
+  "title": "A Graph-Based Method for Soccer Action Spotting Using Unsupervised Player Classification",
+  "authors": "Alejandro Cartas, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2022,
+  "image": "../images/projects/soccer_graph.png",
+  "pdf": "https://arxiv.org/pdf/2211.12334.pdf",
+  "project": "https://ipcv.github.io/SoccerActionSpotting/",
+  "code": "https://github.com/ipcv/soccer_action_spotting"
+},
+{
+  "title": "Self-Supervised Small Soccer Player Detection and Tracking",
+  "authors": "Samuel Hurault, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2020,
+  "image": "../images/projects/soccer_tracking.png",
+  "pdf": "https://repositori.upf.edu/bitstream/handle/10230/47356/hurault_mmsports_self.pdf",
+  "code": "https://github.com/samuro95/Self-Supervised-Small-Soccer-Player-Detection-Tracking"
+}]
