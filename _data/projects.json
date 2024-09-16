@@ -1,5 +1,16 @@
 [
 {
+  "title": "Two Weakly Supervised Approaches for Role Classification of Soccer Players",
+  "authors": "Alejandro Cartas, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2024,
+  "image": "../images/projects/player_classification.png",
+  "pdf": "https://drive.google.com/file/d/18zrPxar7XMaXTC89xYTtHeu08qdIano2/view?usp=drive_link",
+  "project": "https://ipcv.github.io/PlayerClassification/",
+  "code": "https://github.com/IPCV/player_classification",
+  "data": "https://drive.google.com/file/d/1p8SzA92HBJ-02awAEYNbJb2ukL-0F9ND/view?usp=sharing"
+},
+{
   "title": "A Brief Analysis of SLAVC method for Sound Source Localization",
   "authors": "Xavier Juanola, Gloria Haro",
   "venue": "IPOL Journal",
