@@ -11,6 +11,13 @@
   "data": "https://drive.google.com/file/d/1p8SzA92HBJ-02awAEYNbJb2ukL-0F9ND/view?usp=sharing"
 },
 {
+  "title": "Visual Motif Identification: Elaboration of a Curated Comparative Dataset and Classification Methods",
+  "authors": "Adam Phillips, Daniel Grandes Rodriguez, Miriam Sanchez-Manzano, Alan Salvadó, Manuel Garin, Gloria Haro, Coloma Ballester",
+  "venue": "AI4DH",
+  "year": 2024,
+  "image": "../images/projects/visual_motif.png"
+},
+{
   "title": "A Brief Analysis of SLAVC method for Sound Source Localization",
   "authors": "Xavier Juanola, Gloria Haro",
   "venue": "IPOL Journal",
