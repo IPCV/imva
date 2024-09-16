@@ -1,4 +1,14 @@
-[{
+[
+{
+  "title": "A Brief Analysis of SLAVC method for Sound Source Localization",
+  "authors": "Xavier Juanola, Gloria Haro",
+  "venue": "IPOL Journal",
+  "year": 2024,
+  "image": "../images/projects/slavc.png",
+  "pdf": "https://www.ipol.im/pub/art/2024/525/article.pdf",
+  "project": "https://www.ipol.im/pub/art/2024/525/"
+},
+{
   "title": "Speech Inpainting: Context-based Speech Synthesis Guided by Video",
   "authors": "Juan F. Montesinos, Daniel Michelsanti, Gloria Haro, Zheng-Hua Tan, Jesper Jensen",
   "venue": "Interspeech",
