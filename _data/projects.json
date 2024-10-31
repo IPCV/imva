@@ -5,7 +5,7 @@
   "venue": "MMSports",
   "year": 2024,
   "image": "../images/projects/player_classification.png",
-  "pdf": "https://drive.google.com/file/d/18zrPxar7XMaXTC89xYTtHeu08qdIano2/view?usp=drive_link",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3689061.3689072",
   "project": "https://ipcv.github.io/PlayerClassification/",
   "code": "https://github.com/IPCV/player_classification",
   "data": "https://ipcv.github.io/PlayerClassification/data/"
