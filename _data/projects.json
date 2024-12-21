@@ -1,5 +1,15 @@
 [
 {
+  "title": "A Critical Assessment of Visual Sound Source Localization Models Including Negative Audio",
+  "authors": "Xavier Juanola, Gloria Haro, Magdalena Fuentes",
+  "venue": "ICASSP",
+  "year": 2025,
+  "image": "../images/projects/vssl.png",
+  "pdf": "https://arxiv.org/pdf/2410.01020",
+  "project": "https://xavijuanola.github.io/vssleval/",
+  "code": "https://github.com/xavijuanola/vssl_eval"
+},
+{
   "title": "Two Weakly Supervised Approaches for Role Classification of Soccer Players",
   "authors": "Alejandro Cartas, Coloma Ballester, Gloria Haro",
   "venue": "MMSports",
