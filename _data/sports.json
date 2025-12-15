@@ -1,4 +1,25 @@
 [{
+  "title": "SoccerHigh: A Benchmark Dataset for Automatic Soccer Video Summarization",
+  "authors": "Artur Díaz-Juan, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2025,
+  "image": "../images/projects/soccerhigh.png",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3728423.3759410",
+  "project": "https://ipcv.github.io/SoccerHigh/",
+  "code": "https://github.com/IPCV/SoccerHigh"
+},
+{
+  "title": "Two Weakly Supervised Approaches for Role Classification of Soccer Players",
+  "authors": "Alejandro Cartas, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2024,
+  "image": "../images/projects/player_classification.png",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3689061.3689072",
+  "project": "https://ipcv.github.io/PlayerClassification/",
+  "code": "https://github.com/IPCV/player_classification",
+  "data": "https://ipcv.github.io/PlayerClassification/data/"
+},
+{
   "title": "A Graph-Based Method for Soccer Action Spotting Using Unsupervised Player Classification",
   "authors": "Alejandro Cartas, Coloma Ballester, Gloria Haro",
   "venue": "MMSports",

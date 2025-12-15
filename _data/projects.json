@@ -1,11 +1,31 @@
 [
+  {
+  "title": "Learning from Silence and Noise for Visual Sound Source Localization",
+  "authors": "Xavier Juanola, Giovana Morais, Gloria Haro, Magdalena Fuentes",
+  "venue": "BMVC",
+  "year": 2025,
+  "image": "../images/projects/lsnvssl.png",
+  "pdf": "https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_364/paper.pdf",
+  "project": "https://xavijuanola.github.io/SSL-SaN/",
+  "code": "https://github.com/xavijuanola/SSL_SaN"
+},
+{
+  "title": "SoccerHigh: A Benchmark Dataset for Automatic Soccer Video Summarization",
+  "authors": "Artur Díaz-Juan, Coloma Ballester, Gloria Haro",
+  "venue": "MMSports",
+  "year": 2025,
+  "image": "../images/projects/soccerhigh.png",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3728423.3759410",
+  "project": "https://ipcv.github.io/SoccerHigh/",
+  "code": "https://github.com/IPCV/SoccerHigh"
+},
 {
   "title": "A Critical Assessment of Visual Sound Source Localization Models Including Negative Audio",
   "authors": "Xavier Juanola, Gloria Haro, Magdalena Fuentes",
   "venue": "ICASSP",
   "year": 2025,
   "image": "../images/projects/vssl.png",
-  "pdf": "https://arxiv.org/pdf/2410.01020",
+  "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10890384",
   "project": "https://xavijuanola.github.io/vssleval/",
   "code": "https://github.com/xavijuanola/vssl_eval"
 },
